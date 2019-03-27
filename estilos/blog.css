@@ -3,20 +3,38 @@
 
 }
 
+.container{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
 .identificacao{
     background-color: #579FF0;
-    color: #FCFCFD;
+    color: rgb(211, 211, 241);
+    padding: 7em 2em;
 }
 
 .identificacao h1 {
 font-size: 2.5em;
+margin-bottom: 0.7em;
 }
-
 
 .identificacao h2{
     font-size: 1.5em;
     font-weight: lighter;
 }
+
+header li {
+display :inline-block;
+margin-left: 3em;
+}
+
+#Contato li{
+    display: inline-block;
+    margin: 1em;
+}
+
+
 
 section h3{
     font-size: 1.7em;
@@ -51,4 +69,8 @@ font-weight: lighter;
 #Sobre img{
     width: 200px;
     
+}
+footer{
+    padding-bottom: 1em;
+    padding-top: 1em;
 }
