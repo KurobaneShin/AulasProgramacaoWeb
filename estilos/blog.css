@@ -8,6 +8,12 @@
     padding-right: 10%;
 }
 
+section{
+
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
 .identificacao{
     background-color: #579FF0;
     color: rgb(211, 211, 241);
@@ -24,6 +30,12 @@ margin-bottom: 0.7em;
     font-weight: lighter;
 }
 
+header{
+    border-bottom: 1px solid #ccc;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
 header li {
 display :inline-block;
 margin-left: 3em;
@@ -38,7 +50,7 @@ margin-left: 3em;
 
 section h3{
     font-size: 1.7em;
-
+    margin-bottom: 0.5em;
 }
 
 header li a {
@@ -57,7 +69,14 @@ font-weight: lighter;
 
 .styleprojetos li {
     background-color:#6F768b;
+    padding: 1em;
+    margin-bottom: 2em;
     
+}
+
+.styleprojetos li p{
+    color:#fff;
+    margin-top: 0.5em;
 }
 
 .styleprojetos li a {
@@ -65,6 +84,17 @@ font-weight: lighter;
     color:#ffffff;
     font-size:1.3em;
 }
+
+#Sobre p.bio{
+    color: #579ff0;
+    font-size: 1.5em;
+    margin: 1em;
+}
+
+#Sobre p.text{
+    margin: 1em;
+
+} 
 
 #Sobre img{
     width: 200px;
