@@ -30,6 +30,11 @@ margin-bottom: 0.7em;
     font-weight: lighter;
 }
 
+section img{
+    width: 100%;
+    max-width: 300px;
+}
+
 header{
     border-bottom: 1px solid #ccc;
     padding-top: 1em;
@@ -67,6 +72,16 @@ font-weight: lighter;
     color: #2B313E;
 }
 
+.Projetos-header{
+ float: left;
+}
+
+
+.styleprojetos{
+    margin-left: 40%;
+}
+
+
 .styleprojetos li {
     background-color:#6F768b;
     padding: 1em;
@@ -77,6 +92,8 @@ font-weight: lighter;
 .styleprojetos li p{
     color:#fff;
     margin-top: 0.5em;
+    text-align: justify;
+    line-height: 1.2;
 }
 
 .styleprojetos li a {
