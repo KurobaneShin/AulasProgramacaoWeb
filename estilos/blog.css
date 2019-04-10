@@ -81,22 +81,26 @@ margin-left: 3em;
     height: 48px;
     text-indent: -9999px;
 }
-#contato .email{
-    background-image: url("../Imagens/email.png");
+#contato .email {
+    background-image: url("../imagens/email.png");
 }
 
 #contato .face{
-    background-image: url("../Imagens/face.png");
+    background-image: url("../imagens/fb.png");
 }
-#contato .github{
-    background-image: url("../Imagens/github.png");
+
+#contato .twitter {
+    background-image: url("../imagens/twitter.png");
 }
-#contato .twitter{
-    background-image: url("../Imagens/twitter.png");
+
+#contato .github {
+    background-image: url("../imagens/github.png");
 }
-#contato .linkedin{
-    background-image: url("../Imagens/linkedin.png");
+
+#contato .linkedin {
+    background-image: url("../imagens/linkedin.png");
 }
+
 section h3{
     font-size: 1.7em;
     margin-bottom: 0.5em;
@@ -165,12 +169,13 @@ font-weight: lighter;
 } 
 
 #Sobre{
-    position:relative ;
+    position: relative ;
 }
+
 #Sobre img{
     width: 200px;
     position: absolute;
-    top:0.5em;
+    top: 0.5em;
     right:10% ;
     
 }
